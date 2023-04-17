@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinitus'23</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./res.css" />
+</head>
+
+<body id="disable">
+    <!-- Do not change the position of this nor interrupt script.js -->
+    <canvas class="webgl"> </canvas>
+
+    <div class="not-available">
+        <h2 class="resText">
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>Please view the website on a larger device for a better experience.
+        </h2>
+
+    </div>
+
+    <section class="section" id="secOne">
+        <img src="/imgs/static.gif" id="noise-bg" class="noise-bg" />
+
+        <!-- Navbar -->
+
+        <nav class="navbar">
+            <a href="index.html" style="left: 3%;position: fixed;">
+                <img src="/imgs/logo.png" id="logo-logo">
+            </a>
+
+            <a href="events.html"> Events </a>
+            <a href="#secSix"> Sponsors </a>
+            <a href="#secFour"> proshows </a>
+            <a href="team.html"> Team </a>
+
+            <a href="register.html" style="position: fixed;right: 3%;"> register </a>
+        </nav>
+        <a href="index.html" style="right: 3%;position: fixed;z-index: 20;">
+            <img src="/imgs/logo.png" id="logo-logo-logo">
+        </a>
+        <img src="/imgs/menu-burger.png" id="menu" onclick="openNav()" />
+
+
+        <div class="selection" id="blockNav">
+            <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="color:white" id="clBtn">
+        <img src="/imgs/close.png" id="close" onclick="openNav()" />
+      </a> -->
+            <a href="javascript:void(0)" onclick="closeNav()" id="close" style="margin: 1%;">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="events.html">Events</a>
+                <a href="#secFour">ProShows</a>
+                <a href="#secSix">Sponsor</a>
+                <a href="team.html">Team</a>
+            </div>
+
+        </div>
+
+        <script>
+            /* Open when someone clicks on the span element */
+            function openNav() {
+                document.getElementById("blockNav").style.width = "100%";
+                // document.getElementById("clBtn").style.display = "block";
+            }
+
+            /* Close when someone clicks on the "x" symbol inside the overlay */
+            function closeNav() {
+                document.getElementById("blockNav").style.width = "0%";
+                document.getElementById("blockNav").style.display = "block";
+            }
+        </script>
+
+        <hr id=" lineOne" />
+
+        <h3 class="length" id="lengthOneLogo">
+            <img src="/imgs/logo-text.png" id="header-logo">
+        </h3>
+        <img src="/imgs/date.jpg" class="date" id="lengthTwoLogo">
+
+        <h3 class="length" id="lengthOneLogoNone" style="  left: 24.5%;top:18%;">
+            <img src=" /imgs/logo-w-date.png" id="header-logo-two">
+        </h3>
+
+        <!-- <img src="/imgs/gd-2.png" class="gd-2" /> -->
+
+        <!-- <h3 class="subHeaders" id="subOne">2023</h3> -->
+
+        <!-- <h3 class="subHeaders" id="subTwo">22 - 24</h3> -->
+        <!-- <h3 class="subHeaders" id="subThree">April</h3> -->
+        <!-- <h3 class="subHeaders" id="subTwo" style="top:101.1%;left:92.5%;font-size: 14px;">24-26
+    </h3> -->
+        <!-- <h3 class="subHeaders" style="font-size: 12px;top:56%;letter-spacing: 0.9px;position: fixed;left: 47.4%;"
+      id="sd-eve-two">Scroll
+      Down</h3> -->
+        <!-- <h3 class="subHeaders" id="subThree" style="top:60.5%;left:48.5%;font-size: 20px;">April</h3> -->
+
+        <a href="#">
+            <img src="/imgs/BTS.png" class="hover-one">
+            <!-- <img src="/imgs/gd-3.png" class="gd-1" /> -->
+        </a>
+
+        <!-- <h3 class="subHeaders" id="subSix">2023</h3> -->
+        <!-- <h3 class="subHeaders" id="subSix">Scroll</h3> -->
+
+        <!-- <a href="#"
+      style="position: fixed; left: 45%;top:70%;background-color: white;color:#0a0a0a;padding: 18px 32px;font-size: 14px;border-radius: 50px;font-family: 'helvetica',sans-serif;letter-spacing: 0.4px;"
+      class="link-one" id="disable-opacity">
+      Register Now
+    </a> -->
+    </section>
+
+    <section class="section" id="secTwo"></section>
+    <section class="section" id="secThree"></section>
+
+    <section class="section" id="secFourReg">
+
+        <!-- <h3 class="subHeaders" id="subFour" style="top:6%;">Scroll Down</h3> -->
+
+        <h3 class="length" id="lengthThree" style="top:3%;left:6%;">
+            General rules
+        </h3>
+
+        <ul class="rules">
+            <li>Registration is mandatory for Students to participate in INFINITUS 2023. Only registered students will
+                be permitted to
+                enter the college premises.
+            </li>
+            <li>Registration Pass is valid only from 22nd to 24th April, 2023.</li>
+            <li>All participants are mandatorily required to bring a hard copy of their college Identity card and carry
+                the INFINITUS
+                band throughout the day.
+
+            </li>
+            <li>
+                No refund or cancellation policy: No monetary refunds will be given for any reason unless the fest gets
+                canceled by the
+                organizing committee.
+
+            </li>
+
+            <li>Illegal participation of any participant in any event or competition will be responsible for
+                disqualification of the
+                participant of the concerned college from the event.
+
+            </li>
+            <li>
+                Any participating College/University can present an objection against the opponents of illegal
+                participation or lack of
+                adherence to rules, during a competition. Objections can be made either to the organizing committee or
+                competition
+                organizers.
+
+            </li>
+
+            <li>
+                Please do not carry/consume any intoxicants, narcotics, drugs, cigarettes or additives of any sort.
+                Smoking is strictly
+                prohibited within the campus.
+
+
+            </li>
+
+            <li>Participants are required to present requested documents upon the demands of the organizing committee.
+                Any participating College/University can present an objection against the opponents of illegal
+                participation or lack of
+                adherence to rules, during a competition. Objections can be made either to the organizing committee.
+            </li>
+
+            <li>Any student found indulging in ragging or assaulting students in any form within the University shall be
+                immediately
+                debarred from the event and necessary authorities will be informed. A student who engages in abusive
+                language will be
+                subjected to disciplinary action.
+
+            </li>
+
+
+            <li>
+                Refer to the schedules in the website and instagram page (@srmuap.infinitus) for more information
+                regarding the event
+                and competitions.
+
+
+            </li>
+
+            <a href="https://www.collexo.com/user/login/?dest=/pay-fee/srm-ap-infinitus-61331/"
+                style="text-decoration: 1.5px white underline;line-height: 20px;">
+                <li>Registration for SRM Students
+                </li>
+            </a>
+            <br>
+            <a href="https://www.collexo.com/user/login/?dest=/pay-fee/infinitus-2023-53520/"
+                style="text-decoration: 1.5px white underline;line-height: 20px;">
+                <li>Registration for Outside Students
+                </li>
+            </a>
+        </ul>
+
+
+        <a href="https://www.collexo.com/user/login/?dest=/pay-fee/srm-ap-infinitus-61331/" id="regOne"
+            style="position: absolute; right: 6%;top:10%;background-color: white;color:#050505;padding: 12px 25px;font-size: 12px;border-radius: 7px;font-family: 'aeonik',sans-serif;letter-spacing: 0.3px;transform: scale(0.93);opacity: 1;z-index: 15;">
+            SRM Students
+        </a>
+
+        <a href="https://www.collexo.com/user/login/?dest=/pay-fee/infinitus-2023-53520/" id="regTwo"
+            style="position: absolute; left: 6%;top:10%;background-color: white;color:#050505;padding: 12px 25px;font-size: 12px;border-radius: 7px;font-family: 'aeonik',sans-serif;letter-spacing: 0.3px;transform: scale(0.93);opacity: 1;z-index: 15;">
+            Outside Students
+        </a>
+
+
+    </section>
+
+
+
+
+    <section class="section" id="footer">
+        <!-- <hr id="lineTwo" /> -->
+
+        <div class="footer-one">
+            <span style="font-family: 'aeonik',sans-serif;text-transform: uppercase;font-size: 12px;
+  opacity: 0.9;
+  letter-spacing: 0.3px;"> Core Committee</span>
+            <br>
+            <span style="margin-left: -100%;position: absolute;top:120%;color:white">
+                <a href="tel:91 98870 30111" style="font-family: 'neue light',sans-serif;font-size: 14px;">
+                    +91 98870 30111</a><br>
+                <a href="mailto:sc@srmap.edu.in" style="font-family: 'neue light',sans-serif;font-size: 14px;">
+                    sc@srmap.edu.in</a><br>
+            </span>
+        </div>
+
+        <div class="footer-two">
+            <span style="font-family: 'aeonik',sans-serif;text-transform: uppercase;font-size: 12px;
+  opacity: 0.9;
+  letter-spacing: 0.3px;"> Connect</span> <br>
+            <span style="margin-left: -100%;position: absolute;top:120%;color:white">
+                <a href="https://www.instagram.com/srmuap.infinitus/"
+                    style="font-family: 'neue light',sans-serif;font-size: 14px;">Instagram</a><br>
+                <a href="https://twitter.com/SRMUAP"
+                    style="font-family: 'neue light',sans-serif;font-size: 14px;">Twitter</a><br>
+            </span>
+        </div>
+
+        <div class="footer-three">
+            <span style="font-family: 'aeonik',sans-serif;text-transform: uppercase;font-size: 12px;
+  opacity: 0.9;
+  letter-spacing: 0.3px;"> Address</span> <br>
+            <span style="margin-left: -100%;position: absolute;top:120%;color:white;" id="address">
+                <a href=#
+                    style="font-family: 'neue light',sans-serif;font-size: 14px;width: 300px;line-height: 22px;">SRM
+                    University, Mangalagiri -Mandal, Neeru Konda, Amaravati, Andhra Pradesh 522502.</a><br>
+            </span>
+        </div>
+
+
+
+    </section>
+
+    <!-- Do not change the position of this-->
+    <script type="module" src="./script.js"></script>
+    <script src="./main.js"></script>
+    <div class="cursor"></div>
+
+</body>
+
+</html>

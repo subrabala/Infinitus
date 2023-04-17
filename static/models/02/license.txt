@@ -1,0 +1,11 @@
+Model Information:
+* title:	MT
+* source:	https://sketchfab.com/3d-models/mt-554324342d9f498e92e8494114e97034
+* author:	Daniil Kutuzov (https://sketchfab.com/VFXxx)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "MT" (https://sketchfab.com/3d-models/mt-554324342d9f498e92e8494114e97034) by Daniil Kutuzov (https://sketchfab.com/VFXxx) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Johann-Strauß-Denkmal
+* source:	https://sketchfab.com/3d-models/johann-strau-denkmal-d7b1cf114af248e4a9258eaa7325951f
+* author:	noe-3d.at (https://sketchfab.com/www.noe-3d.at)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Johann-Strauß-Denkmal" (https://sketchfab.com/3d-models/johann-strau-denkmal-d7b1cf114af248e4a9258eaa7325951f) by noe-3d.at (https://sketchfab.com/www.noe-3d.at) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

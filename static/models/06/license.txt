@@ -1,0 +1,11 @@
+Model Information:
+* title:	Astraía
+* source:	https://sketchfab.com/3d-models/astraia-c0f37ac567d34fa8881ed7a79b335c4d
+* author:	Quentin Otani (https://sketchfab.com/quentinotani)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Astraía" (https://sketchfab.com/3d-models/astraia-c0f37ac567d34fa8881ed7a79b335c4d) by Quentin Otani (https://sketchfab.com/quentinotani) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
